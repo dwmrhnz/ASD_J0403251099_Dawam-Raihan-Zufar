@@ -1,4 +1,4 @@
-file_path = "data_mahasiswa.txt"
+file_path = "ASD_J0403251099_Dawam Raihan Zufar\Pertemuan1\data_mahasiswa.txt"
 
 with open(file_path, "r", encoding="utf-8") as files:
     baca = files.read()
