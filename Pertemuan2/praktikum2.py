@@ -5,7 +5,7 @@ Latihan 1 : Mmebuat fungsi load data
 ========================================================
 """
 
-nama_file = "ASD_J0403251099_Dawam Raihan Zufar\Pertemuan2\data_mahasiswa.txt"
+nama_file = "Pertemuan2\data_mahasiswa.txt"
 
 
 data_dict = {}

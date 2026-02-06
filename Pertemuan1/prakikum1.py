@@ -1,3 +1,7 @@
+# Praktikkum 1 : Konsep ADT dan File Handling
+# Latihan Dasar 1 : Membaca Seluruh Isi File
+# -------------------------------------------------------#
+
 file_path = "ASD_J0403251099_Dawam Raihan Zufar\Pertemuan1\data_mahasiswa.txt"
 
 with open(file_path, "r", encoding="utf-8") as files:
@@ -45,7 +49,7 @@ with open(file_path, "r", encoding="utf-8") as files:
     for baris in files:
         baris = baris.strip()
         nim, nama, nilai = baris.split(",")
-        data_dict[nim]: {
+        data_dict[nim] = {
             "nama":  nama,
             "nilai": int(nilai)
         }
