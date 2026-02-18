@@ -38,7 +38,7 @@ print("==========List Baru==========")
 # Implementasi Dasr : Linked List  - Insert Awal
 #===========================================
 
-class LinkedList:
+class LinkedList: #class implementasi stack
     def __init__(self):
         self.head= None #awalnya kosong
 
