@@ -1,3 +1,9 @@
+#===========================================
+# Nama  : Dawam Raihan ZUfar
+# NIM   : J0403251099
+# Kelas : TPL B2
+#===========================================
+
 # Praktikkum 1 : Konsep ADT dan File Handling
 # Latihan Dasar 1 : Membaca Seluruh Isi File
 # -------------------------------------------------------#

@@ -1,3 +1,9 @@
+#===========================================
+# Nama  : Dawam Raihan ZUfar
+# NIM   : J0403251099
+# Kelas : TPL B2
+#===========================================
+
 class Node:
     def __init__(self, data):
         self.data = data
