@@ -9,12 +9,12 @@
 #===========================================
 
 def jumlah_list(data, index=0):
-    #Base case
+    # Base case: jika index sudah mencapai panjang list
     if index == len(data):
         return 0
 
-    #RECURSIVE CASE
+    # Recursive case: elemen sekarang + jumlah elemen setelahnya
     return data[index] + jumlah_list(data, index+1)
 
 print("========Program Jumlah data list===========")
-print(jumlah_list([2,3,4,5,6,8]))
+print(jumlah_list([2,3,4,5,6,8])) # output 28 
