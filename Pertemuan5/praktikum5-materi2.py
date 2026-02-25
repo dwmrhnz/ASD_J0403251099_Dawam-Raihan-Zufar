@@ -13,13 +13,13 @@
 #===========================================
 
 def hitung(n):
-    #base case
+    #base case: ketika n = 0, program selesai
     if n == 0:
         print("Selesai")
         return
     
-    print("Masuk:", n)
-    hitung(n-1) #recursive case
-    print("Keluar", n)
+    print("Masuk:", n)  # fase stacking
+    hitung(n-1)         # recursive case
+    print("Keluar", n)  # fase unwinding
 print("======PROGRAM TRACING======")
 hitung(5)
