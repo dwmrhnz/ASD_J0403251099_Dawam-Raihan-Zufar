@@ -11,11 +11,11 @@
 # ===========================================
 
 def faktorial(n):
-    # base case
+    # base case: berhenti ketika n = 0
     if n == 0 or n == 1:
         return 1
-    # recursive case
+    # recursive case: masalah diperkecil menjadi faktorial(n-1)
     return n*faktorial(n-1)
 
 
-print(faktorial(5))
+print(faktorial(5)) #output: 120
