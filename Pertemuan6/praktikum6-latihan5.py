@@ -32,6 +32,6 @@ Soal
 
 2. Jelaskan fungsi result.extend()
     jawaban: mengganti dan menambahkan elemen yang sudah disortir tadi dari
-    setiap sisi untuk dijadikan satu elemen yang utuh
+    setiap sisi untuk dijadikan satu kumpulan elemen yang utuh
 
 """
